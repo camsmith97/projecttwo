@@ -1,0 +1,746 @@
+html {
+}
+
+@font-face {
+	font-family: wask;
+	src:url(../fonts/wask.otf);
+}
+
+.menubar {
+	height:2000px;
+	width: 150px;
+	background-color: white;
+	position: absolute;
+	top:-1575px;
+}
+.menubar:hover {
+	-webkit-animation: artforum 1s alternate;
+	-webkit-animation-fill-mode: forwards;
+}
+
+
+.menuoption {
+	padding:5px;
+}
+
+.menuoptionhover {
+	background-color:lightgrey;
+}
+
+#home {
+	position: absolute;
+	top:1290px;
+	left:50px;
+}
+
+#words {
+	position: absolute;
+	top: 1340px;
+	left:40px;
+}
+
+#news {
+	position: absolute;
+	top: 1390px;
+	left:50px;
+}
+
+#picks {
+	position: absolute;
+	top:1440px;
+	left:50px;
+}
+
+#inprint {
+	position:absolute;
+	top:1490px;
+	left:45px;
+}
+
+
+#artforum {
+	width: 100px;
+	height: 390px;
+	margin-left:30px;
+	margin-top: 1600px;
+}
+
+@-webkit-keyframes artforum {
+	0% {margin-top: 20px;}
+	100% {margin-top: 350px;}
+}
+
+.photo {
+	height: 322.5px;
+	width: 322.5px;
+	overflow: hidden;
+}
+
+.title {
+	font-family: wask;
+	font-size: 30px;
+}
+
+#desert {
+	position: absolute;
+	left: 150px;
+	z-index: 10;
+}
+
+#desertphoto {
+	height: 322.5px;
+	width:645px;
+	z-index: 0;
+
+}
+
+@-webkit-keyframes a {
+	0% {width: 322.5px;}
+	100% {width: 645px;}
+} 
+
+#desert:hover {
+	-webkit-animation: a 1s alternate;
+	-webkit-animation-fill-mode: forwards ;
+	z-index: 3;
+
+
+}
+
+#donna {
+	position: absolute;
+	left: 300px;
+	top: 225px;
+	width: 300px;
+	text-align: right;
+	line-height: 9px;
+	color: black;
+	z-index: 5;
+
+}
+
+#donnatwo {
+	font-size: 12px;
+	color: black;
+	z-index:5;
+}
+
+#bubbles {	
+	position: absolute;
+	left: 472.5px;
+	z-index:1;
+}
+
+#bubblephoto {
+	height: 322.5px;
+	width:645px;
+}
+
+#bubbles:hover {
+	-webkit-animation: a 1s alternate;
+	-webkit-animation-fill-mode: forwards ;
+	z-index: 1;
+}
+
+#object {
+	position: absolute;
+	left: 300px;
+	top: 225px;
+	width: 300px;
+	text-align: right;
+	line-height: 9px;
+	color: black;
+	z-index: 5;
+
+}
+
+#objectinfo {
+	font-size: 12px;
+	color: black;
+	z-index:5;
+}
+
+#paris {	
+	position: absolute;
+	left: 795px;
+	z-index:;
+}
+
+#parisphoto {
+	height: 645px;
+	width:967.5px;
+}
+
+
+@-webkit-keyframes paris {
+	0% {height: 322.5px; width: 322.5px; left: 795px;}
+	100% {height: 645px; width: 967.5px; left:472.5px;}
+}
+
+
+#paris:hover {
+	-webkit-animation: paris 1s alternate;
+	-webkit-animation-fill-mode: forwards ;
+	z-index:12;
+}
+
+#paige {
+	position: absolute;
+	left: 620px;
+	top: 520px;
+	width: 300px;
+	text-align: right;
+	line-height: 9px;
+	color: white;
+	z-index: 5;
+}
+
+#paigetitleone {
+	font-size: 12px;
+	color: white;
+	z-index:5;
+}
+
+#anime {	
+	position: absolute;
+	left: 1117.5px;
+	z-index:11;
+}
+
+#animephoto {
+	height:645px;
+}
+
+@-webkit-keyframes anime {
+	0% {height:322.5px; width:322.5px; left:1117.5px;}
+	100% {height:645px; width:967.5px; left:472.5px;}
+}
+
+#anime:hover {
+	-webkit-animation: anime 1s alternate;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#collins {
+	position: absolute;
+	left: 620px;
+	top: 520px;
+	width: 300px;
+	text-align: right;
+	line-height: 9px;
+	color: white;
+	z-index: 5;
+}
+
+#collinsinfo {
+	font-size: 12px;
+	color: white;
+	z-index:5;
+}
+
+#scott {	
+	position: absolute;
+	left: 150px;
+	top: 322.5px;
+	z-index: 10;
+
+}
+
+#scottphoto {
+	z-index:1;
+	height:645px;
+	width:645px;
+}
+
+@-webkit-keyframes scott {
+	0% {height: 322.5px; width: 322.5px; left:150px; top:322.5px;}
+	100% {height: 645px; width: 645px; left:150px; top:0px;}
+}
+
+#scott:hover {
+	-webkit-animation: scott 1s alternate;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#scotttitle{
+	position: absolute;
+	left: 310px;
+	top: 550px;
+	width: 300px;
+	text-align: right;
+	line-height: 9px;
+	color: black;
+	z-index: 5;
+}
+
+#scotttitletwo {
+	font-size: 12px;
+	color: black;
+	z-index:5;
+}
+
+#arthur {
+	position: absolute;
+	left:472.5px;
+	top:322.5px;
+	z-index: 3;
+}
+
+#arthurphoto {
+	height:967.5px;
+	width: 645px;
+}
+
+@-webkit-keyframes arthur {
+	0% {height: 322.5px; width: 322.5px; top:322.5px;}
+	100% {height:967.5px; width:645px; top:0px;}
+}
+
+#arthur:hover {
+	-webkit-animation: 1s arthur alternate;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#arthurtitle {
+	position: absolute;
+	top:800px;
+	left:300px;
+	width: 300px;
+	text-align: right;
+	line-height: 9px;
+	color: white;
+	z-index: 5;
+}
+
+#arthurtitleone {
+	font-size: 12px;
+	color: white;
+	z-index:5;
+}
+
+#elia {
+	position: absolute;
+	left: 795px;
+	top: 322.5px;
+	
+}
+
+#eliaphoto {
+	height:645px;
+	width:967.5px;
+}
+
+@-webkit-keyframes elia {
+	0% {height:322.5px; width: 322.5px; left:795px; top:322.5px;}
+	100% {height:645px; width:967.5px;left:150px;top:0px;}
+}
+
+#elia:hover {
+	-webkit-animation: elia 1s alternate;
+	-webkit-animation-fill-mode: forwards;
+	z-index:15;
+}
+
+#eliatitle {
+	position: absolute;
+	left: 610px;
+	top: 550px;
+	width: 300px;
+	text-align: right;
+	line-height: 9px;
+	color: white;
+	z-index: 5;
+}
+
+#eliatitletwo {
+	font-size: 12px;
+	color: white;
+	z-index:5;
+}
+
+#klimt {
+	position: absolute;
+	left: 1117.5px;
+	top: 322.5px;
+}
+
+#klimtphoto {
+	height:645px;
+	width:645px;
+}
+
+@-webkit-keyframes klimt {
+	0% {height:322.5px; width:322.5px; left:1117.5px; top:322.5px;}
+	100% {height:645px; width:645px; left:795px; top:0px;}
+}
+
+#klimt:hover {
+	-webkit-animation: klimt 1s alternate;
+	-webkit-animation-fill-mode: forwards;
+	z-index:16;
+}
+
+#rabintitle {
+	position: absolute;
+	top:550px;
+	left:300px;
+	width: 300px;
+	text-align: right;
+	line-height: 9px;
+	color: black;
+	z-index: 5;
+}
+
+#rabintitleone {
+	font-size: 12px;
+	color: black;
+	z-index:5;
+}
+
+#libby {
+	position: absolute;
+	left:150px;
+	top:645px;
+}
+
+#libbyphoto {
+	height:645px;
+	width:645px;
+}
+
+@-webkit-keyframes libby {
+	0% {height:322.5px; width:322.5px; left:150px; top:645px;}
+	100% {height:645px; width:645px; left:150px; top:322.5px;}
+}
+
+#libby:hover {
+	-webkit-animation: libby 1s alternate;
+	-webkit-animation-fill-mode: forwards;
+	z-index:17;
+}
+
+#libbytitle {
+	position: absolute;
+	left: 310px;
+	top: 550px;
+	width: 300px;
+	text-align: right;
+	line-height: 9px;
+	color: black;
+	z-index: 5;
+}
+
+#libbytitletwos {
+	font-size: 12px;
+	color: black;
+	z-index:5;
+}
+
+#theo {
+	position:absolute;
+	left: 472.5px;
+	top:645px;
+}
+
+#theophoto {
+	height:645px;
+	width:967.5px;
+}
+
+@-webkit-keyframes theo {
+	0% {height:322.5px; width:322.5px; left:472.5px; top:645px;}
+	100% {height:645px; width:967.5px; left:150px; top:322.5px;}
+}
+
+#theo:hover {
+	-webkit-animation: theo 1s alternate;
+	-webkit-animation-fill-mode: forwards;
+	z-index:18;
+}
+
+#theotitle {
+	position: absolute;
+	left: 600px;
+	top: 550px;
+	width: 300px;
+	text-align: right;
+	line-height: 9px;
+	color: black;
+	z-index: 5;
+}
+
+#theotitleone {
+	font-size: 12px;
+	color: black;
+	z-index:5;
+}
+
+#scotttitle{
+	position: absolute;
+	left: 310px;
+	top: 550px;
+	width: 300px;
+	text-align: right;
+	line-height: 9px;
+	color: black;
+	z-index: 5;
+}
+
+#scotttitletwo {
+	font-size: 12px;
+	color: black;
+	z-index:5;
+}
+
+#valeska {
+	position:absolute;
+	left:795px;
+	top:645px;
+}
+
+#valeskaphoto {
+	height:645px;
+	width:967.5px;
+}
+
+@-webkit-keyframes valeska {
+	0% {height:322.5px; width:322.5px; left:795px; top:645px;}
+	100% {height:645px; width:967.5px; left:472.5px; top:322.5px;}
+}
+
+#valeska:hover {
+	-webkit-animation: valeska 1s alternate;
+	-webkit-animation-fill-mode: forwards;
+	z-index:19;
+}
+
+#valeskatitleone {
+	position: absolute;
+	left: 610px;
+	top: 550px;
+	width: 300px;
+	text-align: right;
+	line-height: 9px;
+	color: black;
+	z-index: 5;
+}
+
+#valeskatitletwo {
+	font-size: 12px;
+	color: black;
+	z-index:5;
+}
+
+#valeskatitle3 {
+	position: absolute;
+	left: 610px;
+	top: 550px;
+	width: 300px;
+	text-align: right;
+	line-height: 9px;
+	color: white;
+	z-index: 5;
+}
+
+#receipt {
+	position: absolute;
+	left: 1117.5px;
+	top:645px;
+}
+
+#receiptphoto {
+	height:967.5px;
+	width:645px;
+}
+
+@-webkit-keyframes receipt {
+	0% {height:322.5px; width:322.5px; left:1117.5px; top:645px;}
+	100% {height:967.5px; width:645px; left:795px; top:0px;}
+}
+
+#receipt:hover {
+	-webkit-animation: receipt 1s alternate;
+	-webkit-animation-fill-mode: forwards;
+	z-index:20;
+}
+
+#mccormacktitle {
+	position: absolute;
+	left: 310px;
+	top: 850px;
+	width: 300px;
+	text-align: right;
+	line-height: 9px;
+	color: black;
+	z-index: 5;
+}
+
+#mccormacktitleone {
+	font-size: 12px;
+	color: black;
+	z-index:5;
+}
+
+
+/* ARTICLE PAGE */
+
+.hamburgercontainer {
+	position:absolute;
+	top:40px;
+	left:50px;
+}
+
+.hamburger {
+	height:5px;
+	width:20px;
+	background-color:black;
+	z-index:5;
+	margin-bottom:5px;
+}
+
+.hamburgers {
+	height:5px;
+	width:20px;
+	background-color:white;
+	z-index:5;
+	margin-bottom:5px;
+}
+
+.arrow {
+	height:50px;
+	width:75px;
+}
+
+
+.articleframe {
+	width:50%;
+	height:100%;
+	position: fixed;
+	overflow: hidden;
+	z-index:5;
+}
+
+#artforums {
+	width: 100px;
+	height: 390px;
+	position:absolute;
+	left:25px;
+	top:345px;
+	position:fixed;
+}
+
+#valeskaarticleone {
+	height:100%;
+	z-index:5;
+}
+
+#valeskaarticleafter {
+	position:absolute;
+	left:250px;
+}
+
+.right {
+	background-color:rgb(251,191,151);
+	position:absolute;
+	left:50%;
+	height:175%;
+	width:50%;
+}
+
+.rightone{
+	background-color:#D3D3D3;
+	position:absolute;
+	left:50%;
+	height:175%;
+	width:50%;
+	overflow:hidden;
+}
+
+#shadow-container {
+	overflow:hidden;
+	width:50%;
+
+}
+
+#box-shadow-div{
+    position: absolute;
+    float:left;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color:#C4C4C4;
+    box-shadow: 0 0 400px 400px #C4C4C4;
+    z-index:0;
+}
+
+#box-shadow-divs{
+    position: absolute;
+    float:left;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color:rgb(247,174,139);
+    box-shadow: 0 0 400px 400px rgb(247,174,139);
+    z-index:0;
+}
+
+.line {
+	height:5px;
+	width:40px;
+	background-color:black;
+	position: relative;
+	left:200px;
+}
+
+.lineone {
+	height:5px;
+	width:40px;
+	background-color:black;
+	position: relative;
+	left:140px;
+}
+
+#lineone {
+	margin-bottom:10px;
+}
+
+#linetwo {
+	margin-top:10px;
+}
+
+#titlesection {
+	position:absolute;
+	left:400px;
+	top:450px;
+}
+
+#titlesectionone {
+	position:absolute;
+	left:450px;
+	top:450px;
+}
+
+#articletitle {
+	font-family: wask;
+	font-size: 50px;
+	text-align: right;
+}
+
+#galleryinfo {
+	text-align:right;
+}
+
+#valeskaarticle {
+	width:550px;
+	position:absolute;
+	margin-top: 100px;
+	left: -330px;
+	line-height: 25px;
+}
+
+
+
+
+
+
+
